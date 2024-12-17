@@ -3,30 +3,31 @@ An application that behavies like a grocery list,
 Counting x times of the inputed element if its a
 duplicate else it will add the string to a dictionary
 
-The application was implemented as an assignment at CS50P
-Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.<br>
+The application was implemented as a CS50 assignment.<br>
+Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
+
 A demo of the application can be watched at [Demo : Groceries](https://cs50.harvard.edu/python/2022/psets/3/grocery/)
 
-
-##  Testing framework / Datasets
-No testing framework used in the project
 
 ## Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/krigjo25/console-adieu-py.git
+# Using SSh 
+ssh git@github.com:krigjo25/console-Grocery-py.git
+
+# Using git bash
+git clone https://github.com/krigjo25/console-Grocery-py.git
+
+# Using Github Cli
+gh repo clone console-Grocery-py
 ```
 
 2. Navigate to the project directory
 ```sh
-cd console-adieu-py
+cd console-Grocery-py
 ```
 
-3. Install the requirements
-```sh
-pip install -r requirements.txt
-```
-4. Run the file
+3. Run the file
 ```sh
 python app.py
 ```
@@ -52,6 +53,9 @@ expected output:
 3 x KAKE
 ```
 Replace `<item` with the desired item
+
+##  Testing framework / Datasets
+No testing framework/ Datasets used in the project
 
 ## LICENCE
 The application is under [The Unlicensed](./LICENCE).
